@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+:root {
+  /* BarebackBronc.pro accent, per the build map: crimson on near black. The
+     secondary is a bone white-grey — the colour of taped hands and athletic
+     tape, which is the right register for the most physically punishing event
+     in rodeo. */
+  --ink: #0d0708;
+  --ink-raised: #1a1012;
+  --ink-panel: #24171a;
+  --ink-border: #43282d;
+
+  --brand: #cc2936;
+  --brand-deep: #9c1b26;
+
+  --brand-2: #c9bcbc;
+  --brand-2-hover: #e2d6d6;
+
+  --cream: #f2e9e7;
+  --muted: #a89596;
+  --muted-dim: #786465;
+}
+
+@theme inline {
+  --color-background: var(--ink);
+  --color-foreground: var(--cream);
+  --color-ink: var(--ink);
+  --color-ink-raised: var(--ink-raised);
+  --color-ink-panel: var(--ink-panel);
+  --color-ink-border: var(--ink-border);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-2: var(--brand-2);
+  --color-brand-2-hover: var(--brand-2-hover);
+  --color-cream: var(--cream);
+  --color-muted: var(--muted);
+  --color-muted-dim: var(--muted-dim);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--ink);
+  color: var(--cream);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+/* Arena backdrop, same approach as the other Rodeo Apps sites. */
+.arena-page {
+  --arena-bg-image: none;
+  position: relative;
+  isolation: isolate;
+  background-color: var(--ink);
+}
+
+.arena-page::before {
+  content: "";
+  position: fixed;
+  inset: -4%;
+  z-index: -2;
+  pointer-events: none;
+  background-image: var(--arena-bg-image);
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px) saturate(0.9) contrast(1.05);
+  opacity: 0.5;
+  transform: scale(1.06);
+}
+
+.arena-page::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% -10%, rgba(204, 41, 54, 0.16), rgba(13, 7, 8, 0.6) 68%),
+    linear-gradient(160deg, rgba(13, 7, 8, 0.72), rgba(26, 16, 18, 0.9));
+}
+
+.arena-bg-1 {
+  --arena-bg-image: url("/backgrounds/arena-1.jpg");
+}
+
+.arena-bg-2 {
+  --arena-bg-image: url("/backgrounds/arena-2.jpg");
+}
+
+.arena-panel {
+  background: rgba(26, 16, 18, 0.72);
+  border: 1px solid var(--ink-border);
+  border-radius: 18px;
+  backdrop-filter: blur(2px);
+}
+
+/* Long-form prose shared by the rules page and the blog. */
+.prose-arena h2 {
+  color: var(--brand);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-arena h3 {
+  color: var(--brand-2);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-arena p {
+  color: #e6d3d3;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.prose-arena ul,
+.prose-arena ol {
+  color: #e6d3d3;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+}
+
+.prose-arena ul {
+  list-style: disc;
+}
+
+.prose-arena ol {
+  list-style: decimal;
+}
+
+.prose-arena li {
+  margin-bottom: 0.35rem;
+}
+
+.prose-arena a {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+.prose-arena strong {
+  color: var(--cream);
+}
+
+/* Association tag used on the rules page. The mark-out rule produces two
+   different outcomes for the same physical event depending on the
+   association, so anything that varies is labelled rather than asserted. */
+.assoc-tag {
+  display: inline-block;
+  border: 1px solid var(--ink-border);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-2);
+  background: rgba(201, 188, 188, 0.08);
+  vertical-align: middle;
+}
+
+/* Rigging specification table on the rules page. The spec is enforceable at
+   the chute and is the most avoidable disqualification in the event, so it
+   gets its own visual treatment rather than sitting in a bullet list. */
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(67, 40, 45, 0.6);
+  padding: 0.6rem 0;
+}
+
+.spec-row:last-child {
+  border-bottom: none;
+}
+
+.spec-row .spec-value {
+  color: var(--brand);
+  font-weight: 700;
+  white-space: nowrap;
+}

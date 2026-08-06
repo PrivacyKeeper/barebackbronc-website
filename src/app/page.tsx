@@ -21,7 +21,7 @@ const features = [
     id: "social",
     icon: "👥",
     title: "Social & Community",
-    desc: "The Whole Bareback World, In One Feed",
+    desc: "The Whole Bareback Bronc World, In One Feed",
     detail: [
       "A real feed — post video of your trips, not just scores",
       "Stories that disappear in 24 hours",
@@ -113,7 +113,7 @@ const features = [
     detail: [
       "Browse and enter by association, date, and distance",
       "One head, two head plus average, go-round plus short round",
-      "Bareback jackpots and match rides",
+      "Bareback bronc jackpots and match rides",
       "Draw posted with a documented random seed and a visible timestamp",
       "Your horse and chute number pushed to your phone",
       "Live scores as judges submit",
@@ -212,7 +212,7 @@ const features = [
     title: "Youth, School & College",
     desc: "Junior Rodeo Through The CNFR",
     detail: [
-      "NHSRA and NIRA bareback standings and qualification tracking",
+      "NHSRA and NIRA bareback bronc standings and qualification tracking",
       "Junior and youth divisions, including steer riding progressions",
       "Minimum age requirements enforced at entry",
       "Coach dashboards with roster, entries, travel, and eligibility",
@@ -360,14 +360,14 @@ export default function Home() {
           className="w-[300px] drop-shadow-2xl md:w-[400px]"
         />
         <h1 className="mt-8 text-4xl font-extrabold tracking-tight text-cream md:text-5xl">
-          Everything Bareback.{" "}
+          Everything Bareback Bronc.{" "}
           <span className="text-brand-2">One App.</span>
         </h1>
         <p className="mt-4 text-xl font-bold tracking-wide text-brand italic md:text-2xl">
           &ldquo;Shortest career in rodeo. Make it longer.&rdquo;
         </p>
         <p className="mt-6 max-w-2xl text-lg text-muted md:text-xl">
-          Bareback riders take more physical punishment than anyone else in
+          Bareback bronc riders take more physical punishment than anyone else in
           rodeo. Elbow, shoulder, neck, back, hand — it accumulates, and it does
           not resolve between rodeos. That is not commentary. It is the reason
           this app exists in the shape it does.
@@ -538,7 +538,7 @@ export default function Home() {
       {/* Why it is different */}
       <section className="mx-auto max-w-5xl px-6 py-20">
         <h2 className="mb-14 text-center text-3xl font-bold tracking-wider text-brand uppercase">
-          Why Bareback Needed Its Own App
+          Why Bareback Bronc Needed Its Own App
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {[

@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title:
-    "Bareback Riding Rules Explained - Rigging Spec, Mark Out & Scoring | BarebackBronc.pro",
+    "Bareback Bronc Riding Rules Explained - Rigging Spec, Mark Out & Scoring | BarebackBronc.pro",
   description:
-    "A complete plain-language bareback riding rules reference: the eight seconds, the full rigging specification with measurements, the mark-out rule and why it differs between PRCA and IPRA, scoring, disqualifications, and rerides. Current as of August 2026.",
+    "A complete plain-language bareback bronc riding rules reference: the eight seconds, the full rigging specification with measurements, the mark-out rule and why it differs between PRCA and IPRA, scoring, disqualifications, and rerides. Current as of August 2026.",
   alternates: { canonical: "https://www.barebackbronc.pro/rules" },
 };
 
@@ -50,7 +50,7 @@ export default function RulesPage() {
       <main className="arena-panel mx-auto my-8 max-w-3xl px-6 py-8">
         <article className="prose-arena">
           <h1 className="text-3xl font-extrabold text-brand">
-            Bareback Riding Rules
+            Bareback Bronc Riding Rules
           </h1>
           <p className="mt-3 text-muted">
             A plain-language reference to the rules that decide rides and
@@ -128,7 +128,7 @@ export default function RulesPage() {
 
           <h2>The rigging specification</h2>
           <p>
-            This is the section that makes bareback different from every other
+            This is the section that makes bareback bronc different from every other
             event, and it is <strong>enforceable at the chute</strong>. Failing
             an equipment inspection is a disqualification and, in some
             associations, an ineligibility period plus a fine.{" "}
@@ -238,7 +238,7 @@ export default function RulesPage() {
 
           <h2>The part the rulebook does not cover</h2>
           <p>
-            Bareback riders take more physical punishment than anyone else in
+            Bareback bronc riders take more physical punishment than anyone else in
             rodeo — the shortest career and the highest cumulative damage in the
             sport, concentrated in the elbow, shoulder, neck, back and hand of
             the riding arm.

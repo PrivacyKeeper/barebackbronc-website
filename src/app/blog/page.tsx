@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { posts } from "./posts";
 
 export const metadata: Metadata = {
-  title: "Bareback Riding Blog - Rules, Rigging, Stock & Longevity",
+  title: "Bareback Bronc Riding Blog - Rules, Rigging, Stock & Longevity",
   description:
-    "Bareback riding rules explained, the rigging specification that gets riders turned out, how the 100-point score works, reading a draw, and the injury and conditioning side that decides how long a career lasts — from BarebackBronc.Pro.",
+    "Bareback bronc riding rules explained, the rigging specification that gets riders turned out, how the 100-point score works, reading a draw, and the injury and conditioning side that decides how long a career lasts — from BarebackBronc.Pro.",
   alternates: { canonical: "https://www.barebackbronc.pro/blog" },
 };
 

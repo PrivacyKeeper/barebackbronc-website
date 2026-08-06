@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "The Rigging Specification, and the DQ Nobody Means to Take",
   description:
-    "Eight inches of handhold, three inches of suede, ten at the handhold and six at the D-ring. The most avoidable disqualification in bareback riding, and it is almost never deliberate.",
+    "Eight inches of handhold, three inches of suede, ten at the handhold and six at the D-ring. The most avoidable disqualification in bareback bronc riding, and it is almost never deliberate.",
   alternates: {
     canonical:
       "https://www.barebackbronc.pro/blog/bareback-rigging-specification",
@@ -22,7 +22,7 @@ export default function Post() {
       </h1>
 
       <p>
-        Bareback is the only event in rodeo where a piece of your own equipment
+        Bareback bronc is the only event in rodeo where a piece of your own equipment
         carries a measurable legal specification that a judge can check with a
         tape. Get it wrong and you are turned out before you nod — and in some
         associations you pick up a fine and an ineligibility period as well.

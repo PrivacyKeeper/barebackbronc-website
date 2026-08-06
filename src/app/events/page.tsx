@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title:
-    "Bareback Events & Formats - Draws, Judging & Equipment Inspection | BarebackBronc.pro",
+    "Bareback Bronc Events & Formats - Draws, Judging & Equipment Inspection | BarebackBronc.pro",
   description:
-    "Bareback formats explained: one head, two head plus average, go-round plus short round, jackpots and match rides. Plus the producer console with seeded stock draws, independent judge entry, chute-side equipment inspection, and reride management.",
+    "Bareback bronc formats explained: one head, two head plus average, go-round plus short round, jackpots and match rides. Plus the producer console with seeded stock draws, independent judge entry, chute-side equipment inspection, and reride management.",
   alternates: { canonical: "https://www.barebackbronc.pro/events" },
 };
 
@@ -14,7 +14,7 @@ const formats = [
   { name: "One head", structure: "Standard at rodeos" },
   { name: "Two head plus average", structure: "Larger rodeos and finals" },
   { name: "Go-round plus short round", structure: "Finals" },
-  { name: "Bareback jackpot", structure: "Standalone" },
+  { name: "Bareback bronc jackpot", structure: "Standalone" },
   { name: "Match rides", structure: "Invitational, head to head" },
 ];
 

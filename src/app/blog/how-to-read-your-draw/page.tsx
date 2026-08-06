@@ -101,7 +101,7 @@ export default function Post() {
       <h2>5. How does the rigging set on it?</h2>
 
       <p>
-        This one is bareback&apos;s alone, and it is the reason a shared
+        This one is bareback bronc&apos;s alone, and it is the reason a shared
         database is worth more here than anywhere else.
       </p>
 

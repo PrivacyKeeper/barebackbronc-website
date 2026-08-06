@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bareback Scoring Explained: The Lick and the Other 50 Points",
+  title: "Bareback Bronc Scoring Explained: The Lick and the Other 50 Points",
   description:
     "Two judges, four numbers. What the spurring stroke actually has to look like to mark, and why half your score was decided when the draw came out.",
   alternates: {
@@ -18,7 +18,7 @@ export default function Post() {
         2026-08-03
       </p>
       <h1 className="mt-2 text-3xl font-extrabold text-brand">
-        Bareback Scoring Explained: The Lick and the Other 50 Points
+        Bareback Bronc Scoring Explained: The Lick and the Other 50 Points
       </h1>
 
       <p>
@@ -30,7 +30,7 @@ export default function Post() {
       <h2>The rider half: the lick</h2>
 
       <p>
-        Bareback spurring is visibly different from saddle bronc and it is the
+        Bareback bronc spurring is visibly different from saddle bronc and it is the
         thing judges are watching:
       </p>
 

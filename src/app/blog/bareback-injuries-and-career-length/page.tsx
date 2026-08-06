@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Why Bareback Careers Are Short, and What Actually Extends Them",
+  title: "Why Bareback Bronc Careers Are Short, and What Actually Extends Them",
   description:
     "Elbow, shoulder, neck, back, hand. The damage accumulates rather than resolving, and the riders who last are the ones who treat conditioning and recovery as part of the job.",
   alternates: {
@@ -18,11 +18,11 @@ export default function Post() {
         2026-08-03
       </p>
       <h1 className="mt-2 text-3xl font-extrabold text-brand">
-        Why Bareback Careers Are Short, and What Actually Extends Them
+        Why Bareback Bronc Careers Are Short, and What Actually Extends Them
       </h1>
 
       <p>
-        Everyone in rodeo knows bareback riders take the worst of it. Fewer
+        Everyone in rodeo knows bareback bronc riders take the worst of it. Fewer
         people are precise about why, and being precise about it is the first
         step to doing anything about it.
       </p>
@@ -37,7 +37,7 @@ export default function Post() {
 
       <p>
         The important word is <strong>cumulative</strong>. A tie-down roper who
-        has a bad run is sore for two days. A bareback rider is not accumulating
+        has a bad run is sore for two days. A bareback bronc rider is not accumulating
         acute injuries so much as a load that never fully clears between rodeos,
         on top of the acute ones.
       </p>
@@ -52,7 +52,7 @@ export default function Post() {
 
       <ul>
         <li>
-          <strong>Elbow</strong> — the classic bareback injury, and the one most
+          <strong>Elbow</strong> — the classic bareback bronc injury, and the one most
           likely to end a career
         </li>
         <li>

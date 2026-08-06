@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bareback Riding Rules Explained: Eight Seconds, One Hand",
+  title: "Bareback Bronc Riding Rules Explained: Eight Seconds, One Hand",
   description:
     "No stirrups, no rein, and a free arm that cannot touch anything including you. Every rule that decides whether you get a score at all.",
   alternates: {
@@ -18,11 +18,11 @@ export default function Post() {
         2026-08-03
       </p>
       <h1 className="mt-2 text-3xl font-extrabold text-brand">
-        Bareback Riding Rules Explained: Eight Seconds, One Hand
+        Bareback Bronc Riding Rules Explained: Eight Seconds, One Hand
       </h1>
 
       <p>
-        Bareback has very few rules and almost all of them are absolute. You get
+        Bareback bronc has very few rules and almost all of them are absolute. You get
         a score or you get nothing. Here is the complete list.
       </p>
 
@@ -50,7 +50,7 @@ export default function Post() {
       </p>
 
       <p>
-        This is the whole reason bareback is not saddle bronc with the saddle
+        This is the whole reason bareback bronc is not saddle bronc with the saddle
         removed. There is nothing to brace against, nothing to balance with, and
         one point of attachment.
       </p>
@@ -90,7 +90,7 @@ export default function Post() {
       <h2>The equipment inspection</h2>
 
       <p>
-        This is where bareback differs most from every other event. The chute
+        This is where bareback bronc differs most from every other event. The chute
         judge can inspect your rigging and your rowels, and failing is a
         disqualification — in some associations with a fine and an
         ineligibility period on top.
@@ -132,7 +132,7 @@ export default function Post() {
       <h2>Age</h2>
 
       <p>
-        Most associations set a minimum age for bareback, and it is enforced at
+        Most associations set a minimum age for bareback bronc, and it is enforced at
         entry rather than discovered at the office. It is surfaced on the entry
         screen in our app for that reason.
       </p>

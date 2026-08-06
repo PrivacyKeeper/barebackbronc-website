@@ -40,7 +40,7 @@ build and every other page work fine without it.
 ```
 src/app/
   page.tsx                  Landing — 13 feature groups, score grid, pricing
-  rules/                    Full bareback rules reference (SEO + authority)
+  rules/                    Full bareback bronc rules reference (SEO + authority)
   events/                   Formats, draw integrity, judging, contractor tools
   blog/                     8 SEO posts; index reads from blog/posts.ts
   support/                  Support topics
@@ -92,7 +92,7 @@ group:
    personal equipment with a legal specification, a per-horse fit problem, a
    wear life, and DQ risk. The landing page carries a `.spec-row` strip with
    the actual measurements, and `/rules` gives the full specification.
-2. **Stock intelligence** — as saddlebronc, plus two bareback-only fields on
+2. **Stock intelligence** — as saddlebronc, plus two bareback bronc-only fields on
    the pattern record: `wither_profile` and `rigging_fit_notes`.
 3. **Injury and longevity** — shortest career and highest cumulative damage in
    rodeo. Injury records are private by default and never shown to producers,

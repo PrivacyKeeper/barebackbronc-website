@@ -22,14 +22,14 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "bareback-riding-rules-explained",
-    title: "Bareback Riding Rules Explained: Eight Seconds, One Hand",
+    title: "Bareback Bronc Riding Rules Explained: Eight Seconds, One Hand",
     excerpt:
       "No stirrups, no rein, and a free arm that cannot touch anything including you. Every rule that decides whether you get a score at all.",
     date: "2026-08-03",
   },
   {
     slug: "bareback-scoring-explained",
-    title: "Bareback Scoring Explained: The Lick and the Other 50 Points",
+    title: "Bareback Bronc Scoring Explained: The Lick and the Other 50 Points",
     excerpt:
       "Two judges, four numbers. What the spurring stroke actually has to look like to mark, and why half your score was decided when the draw came out.",
     date: "2026-08-03",
@@ -45,21 +45,21 @@ export const posts: BlogPost[] = [
     slug: "how-to-read-your-draw",
     title: "How to Read Your Draw",
     excerpt:
-      "Buck-off rate, average mark, how it leaves the chute — plus the two things only bareback riders need: the wither profile, and how the rigging sets on it.",
+      "Buck-off rate, average mark, how it leaves the chute — plus the two things only bareback bronc riders need: the wither profile, and how the rigging sets on it.",
     date: "2026-08-03",
   },
   {
     slug: "bareback-injuries-and-career-length",
-    title: "Why Bareback Careers Are Short, and What Actually Extends Them",
+    title: "Why Bareback Bronc Careers Are Short, and What Actually Extends Them",
     excerpt:
       "Elbow, shoulder, neck, back, hand. The damage accumulates rather than resolving, and the riders who last are the ones who treat conditioning and recovery as part of the job.",
     date: "2026-08-03",
   },
   {
     slug: "best-bareback-riding-app",
-    title: "The Best Bareback Riding App for 2026",
+    title: "The Best Bareback Bronc Riding App for 2026",
     excerpt:
-      "What a bareback app has to do that a saddle bronc app does not: manage a rigging, track a body, and understand that these are two different events rather than one with the saddle removed.",
+      "What a bareback bronc app has to do that a saddle bronc app does not: manage a rigging, track a body, and understand that these are two different events rather than one with the saddle removed.",
     date: "2026-08-03",
   },
 ];

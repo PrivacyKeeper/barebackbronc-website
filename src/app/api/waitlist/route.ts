@@ -41,7 +41,7 @@ export async function POST(req: NextRequest) {
             Thanks for signing up for early access to <strong style="color:#cc2936;">BarebackBronc.Pro</strong> — the complete platform for headers, heelers, producers, and coaches.
           </p>
           <p style="color:#e6d3d3;font-size:16px;line-height:1.6;">
-            Bareback riders take more physical punishment than anyone else in
+            Bareback bronc riders take more physical punishment than anyone else in
             rodeo — the shortest career and the highest cumulative damage in the
             sport. That is not commentary, it is the design brief.
           </p>
@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
             <li>&#129510; Injury and recovery records by body region, private by default</li>
             <li>&#128170; Conditioning: strength, mobility, grip, neck, recovery</li>
             <li>&#127942; Entries, draws, live scores, averages, and rerides</li>
-            <li>&#128101; The whole bareback community in one feed</li>
+            <li>&#128101; The whole bareback bronc community in one feed</li>
             <li>&#127891; NHSRA, NIRA and amateur standings, coaches, and scholarships</li>
           </ul>
           <p style="color:#e6d3d3;font-size:16px;line-height:1.6;">

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "The Best Bareback Riding App for 2026",
+  title: "The Best Bareback Bronc Riding App for 2026",
   description:
-    "What a bareback app has to do that a saddle bronc app does not: manage a rigging, track a body, and understand that these are two different events rather than one with the saddle removed.",
+    "What a bareback bronc app has to do that a saddle bronc app does not: manage a rigging, track a body, and understand that these are two different events rather than one with the saddle removed.",
   alternates: {
     canonical: "https://www.barebackbronc.pro/blog/best-bareback-riding-app",
   },
@@ -17,11 +17,11 @@ export default function Post() {
         2026-08-03
       </p>
       <h1 className="mt-2 text-3xl font-extrabold text-brand">
-        The Best Bareback Riding App for 2026
+        The Best Bareback Bronc Riding App for 2026
       </h1>
 
       <p>
-        Most rodeo software treats roughstock as one category and bareback as a
+        Most rodeo software treats roughstock as one category and bareback bronc as a
         label inside it. Here is the checklist that exposes the difference.
       </p>
 
@@ -51,7 +51,7 @@ export default function Post() {
       <h2>2. It has to take the body seriously</h2>
 
       <p>
-        Bareback has the shortest career and the highest cumulative damage in
+        Bareback bronc has the shortest career and the highest cumulative damage in
         rodeo. An app for this event that has no injury records, no conditioning
         log, and no workload tracking has skipped the thing that decides how
         many seasons a rider gets.
@@ -121,7 +121,7 @@ export default function Post() {
       </p>
 
       <p>
-        If you ride bareback, you should not need another app. That is the bar
+        If you ride bareback bronc, you should not need another app. That is the bar
         we set ourselves — and it is the one worth holding any of these to.
       </p>
 

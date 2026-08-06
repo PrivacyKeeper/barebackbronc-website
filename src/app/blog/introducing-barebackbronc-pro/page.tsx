@@ -22,7 +22,7 @@ export default function Post() {
       </h1>
 
       <p>
-        Bareback riders take more physical punishment than anyone else in rodeo.
+        Bareback bronc riders take more physical punishment than anyone else in rodeo.
         Shortest career, highest cumulative damage — elbow, shoulder, neck,
         back, and hand, all on one side.
       </p>
@@ -108,13 +108,13 @@ export default function Post() {
       </p>
 
       <p>
-        If you ride bareback, you should not need another app. That is the bar.
+        If you ride bareback bronc, you should not need another app. That is the bar.
       </p>
 
       <h2>Built for the amateur side</h2>
 
       <p>
-        Most bareback riders are at amateur rodeos, high school and college, and
+        Most bareback bronc riders are at amateur rodeos, high school and college, and
         offseason jackpots. That is who the copy, the pricing and the defaults
         are written for.
       </p>

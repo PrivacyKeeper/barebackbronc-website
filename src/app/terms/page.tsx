@@ -34,7 +34,7 @@ const sections = [
   },
   {
     h: "6. Rules Information Is a Reference, Not Authority",
-    p: "The rules content in the app and on this website is a plain-language reference compiled from published association rulebooks and amendments. Bareback rules differ between sanctioning bodies — most importantly the mark-out rule, which is an automatic disqualification under PRCA rules and a scored element under IPRA rules — and our reference labels those differences rather than asserting a single answer. It is not a rulebook and it is not competitive or legal advice. Where our reference and an association's current rulebook disagree, the rulebook governs. Ground rules for a specific rodeo override association rules for that rodeo.",
+    p: "The rules content in the app and on this website is a plain-language reference compiled from published association rulebooks and amendments. Bareback bronc rules differ between sanctioning bodies — most importantly the mark-out rule, which is an automatic disqualification under PRCA rules and a scored element under IPRA rules — and our reference labels those differences rather than asserting a single answer. It is not a rulebook and it is not competitive or legal advice. Where our reference and an association's current rulebook disagree, the rulebook governs. Ground rules for a specific rodeo override association rules for that rodeo.",
   },
   {
     h: "7. Events, Entries, and Payments",
@@ -54,7 +54,7 @@ const sections = [
   },
   {
     h: "11. Assumption of Risk",
-    p: "Roughstock rodeo is among the most dangerous sports there is, and bareback riding carries a real risk of serious injury or death. Nothing in this app reduces that risk. Training content, drills, and AI-generated coaching output are informational only and are not a substitute for qualified instruction, veterinary advice, or your own judgment. You participate in equine activities entirely at your own risk.",
+    p: "Roughstock rodeo is among the most dangerous sports there is, and bareback bronc riding carries a real risk of serious injury or death. Nothing in this app reduces that risk. Training content, drills, and AI-generated coaching output are informational only and are not a substitute for qualified instruction, veterinary advice, or your own judgment. You participate in equine activities entirely at your own risk.",
   },
   {
     h: "12. Animal Welfare",

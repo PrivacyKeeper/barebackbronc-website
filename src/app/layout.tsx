@@ -10,11 +10,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    "BarebackBronc.pro - #1 Bareback Riding App | Rigging, Draw Analysis & Community",
+    "BarebackBronc.pro - #1 Bareback Bronc Riding App | Rigging, Draw Analysis & Community",
   description:
-    "The everything app for bareback riding. Check your rigging against the association spec before a chute judge does, see every recorded trip on the horse you drew, track the injuries and conditioning that decide how long your career lasts, and connect with the whole bareback community.",
+    "The everything app for bareback bronc riding. Check your rigging against the association spec before a chute judge does, see every recorded trip on the horse you drew, track the injuries and conditioning that decide how long your career lasts, and connect with the whole bareback bronc community.",
   keywords:
-    "bareback riding, bareback bronc, bareback riding app, bareback rigging, rigging specification, rigging spec, mark out rule, spur out, bucking horse database, draw analysis, rodeo scores, bareback glove, NHSRA bareback, NIRA bareback, amateur rodeo, roughstock app, rodeo injury tracking",
+    "bareback bronc riding, bareback bronc, bareback bronc riding app, bareback bronc rigging, rigging specification, rigging spec, mark out rule, spur out, bucking horse database, draw analysis, rodeo scores, bareback bronc glove, NHSRA bareback bronc, NIRA bareback bronc, amateur rodeo, roughstock app, rodeo injury tracking",
   authors: [{ name: "BarebackBronc.pro" }],
   creator: "BarebackBronc.pro",
   publisher: "BarebackBronc.pro",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     canonical: "https://www.barebackbronc.pro",
   },
   openGraph: {
-    title: "BarebackBronc.pro - #1 Bareback Riding App",
+    title: "BarebackBronc.pro - #1 Bareback Bronc Riding App",
     description:
-      "Shortest career in rodeo. Make it longer. Rigging management, draw analysis, injury tracking, and the whole bareback community.",
+      "Shortest career in rodeo. Make it longer. Rigging management, draw analysis, injury tracking, and the whole bareback bronc community.",
     url: "https://www.barebackbronc.pro",
     siteName: "BarebackBronc.pro",
     type: "website",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BarebackBronc.pro - #1 Bareback Riding App",
+    title: "BarebackBronc.pro - #1 Bareback Bronc Riding App",
     description:
       "Shortest career in rodeo. Make it longer. Rigging, draws, injuries, and community.",
     images: ["https://www.barebackbronc.pro/logo.png"],

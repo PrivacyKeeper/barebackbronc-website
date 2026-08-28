@@ -32,7 +32,15 @@ already here, carried over from the other Rodeo Apps sites.
 | --- | --- |
 | `RESEND_API_KEY` | Waitlist confirmation + team notification email |
 
+Copy `.env.example` to `.env.local` for local development, and set the same
+variable in the hosting provider's project settings for preview and production.
+
 Without it, `POST /api/waitlist` returns 503 and the form shows an error. The
+build and every other page work fine without it.
+
+The sending domain `barebackbronc.pro` must also be verified in Resend, otherwise
+every send fails and the route answers 502 rather than reporting a signup that
+never actually went out. The
 build and every other page work fine without it.
 
 ## Structure
